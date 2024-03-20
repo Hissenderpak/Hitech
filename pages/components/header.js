@@ -5,8 +5,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Header() {
   return (
-    <div className="">
-
+    <div className="w-full h-20 px-4 md:">
+      
     </div>
   );
 }

@@ -295,3 +295,89 @@ const computerMonitor = [
         additionalImg: "https://www.hitech.mn/_next/image?url=https%3A%2F%2Fhitech-bc-main.s3.ap-southeast-1.amazonaws.com%2F0b74afcd-695d-4a59-9740-5dbeecef71ac.jpg&w=1920&q=75",
     },
 ]
+
+const graphicCard = [
+    
+    {
+        id: 9,
+        name: "GIGABYTE AORUS GeForce RTX 4080 Super Master 16GB",
+        price: 5000000,
+        information: "• Powered by GeForce RTX 4080 SUPER​ • Integrated with 16GB GDDR6X 256-bit memory interface​ • WINDFORCE cooling system​ • RGB Fusion – RGB Halo​ • LCD Edge View​ • Dual BIOS​ • Protection metal back plate​ • Anti-sag bracket​",
+        inStock: 1,
+        mainImg: "https://www.hitech.mn/_next/image?url=https%3A%2F%2Fhitech-bc-main.s3.ap-southeast-1.amazonaws.com%2Fd621452a-659d-4169-bf5d-5b32ee26f318.jpg&w=1920&q=75",
+        additionalImg: "https://www.hitech.mn/_next/image?url=https%3A%2F%2Fhitech-bc-main.s3.ap-southeast-1.amazonaws.com%2F02daa601-034a-4e1d-98ea-5cc12106f2b9.jpg&w=1920&q=75",
+    },
+    
+    {
+        id: 10,
+        name: "MSI Gaming RTX 4080 Super 16GB Expert",
+        price: 4800000,
+        information: "【Unleash Gaming Mastery】Elevate your gaming experience with the MSI GeForce RTX 4080 SUPER 16G EXPERT, featuring New Streaming Multiprocessors and Fourth-Gen Tensor Cores, delivering up to 2X performance, 4X DLSS 3 efficiency, and 2X ray tracing performance with DLSS 3. 【Extreme Performance, Precision Cooling】Boost your gameplay with an Extreme Performance boost clock of 2625 MHz (via MSI Center). The FLOW FROZR Thermal Design ensures expert cooling efficiency, utilizing a push-pull airflow system and a patented fan design for optimal heat dissipation.【AI-Powered Graphics】Supercharge your PC with NVIDIA GeForce RTX 4080 SUPER, driven by the ultra-efficient Ada Lovelace architecture and 16GB of super-fast G6X memory. Experience accelerated ray tracing and AI-powered graphics for unparalleled gaming visuals.【Precision Crafted for Experts】Immerse yourself in 7680 x 4320 max resolution across 4 monitors with SLI support, all within a sleek ATX form factor. The aluminum alloy casing provides durability, stability, and a refined appearance, emphasizing the premium design tailored for expert gamers. 【Intuitive Control with MSI Center】Take control of your gaming rig in real-time with the exclusive MSI Center software. Monitor, tweak, and optimize your gaming setup effortlessly, ensuring that every aspect of the MSI Expert series aligns with the precision demanded by expert gamers.",
+        inStock: 1,
+        
+        performance: [
+            {
+                type: "Output Ports",
+                value: "1 x HDMI, 3 x DisplayPort",
+            },
+            {
+                type: "Memory Speed	",
+                value: "23 Gbps",
+            },
+            {
+                type: "Max Boost Clock",
+                value: "2625 MHz",
+            },
+            {
+                type: "Recommended PSU Wattage	",
+                value: "850 W (Min 750 W)",
+            },
+            {
+                type: "CUDA® CORES",
+                value: "10240 Units",
+            },
+        ],
+        mainImg: "https://www.hitech.mn/_next/image?url=https%3A%2F%2Fhitech-bc-main.s3.ap-southeast-1.amazonaws.com%2Fbb0e71de-29ee-442c-8d2b-4bf742456752.jpg&w=1920&q=75",
+        additionalImg: "https://www.hitech.mn/_next/image?url=https%3A%2F%2Fhitech-bc-main.s3.ap-southeast-1.amazonaws.com%2F5ed4326b-2f25-4365-935f-6578050aa22e.jpg&w=1920&q=75",
+    },
+    {
+        id: 11,
+        name: "ASUS - TUF Gaming RTX 4070 Ti 12GB",
+        price: 3400000,
+        information: "ASUS TUF Gaming GeForce RTX™ 4070 Ti 12GB GDDR6X with DLSS 3, lower temps, and enhanced durability Powered by NVIDIA DLSS3, ultra-efficient Ada Lovelace arch, and full ray tracing. 4th Generation Tensor Cores: Up to 4x performance with DLSS 3 vs. brute-force rendering 3rd Generation RT Cores: Up to 2X ray tracing performance Axial-tech fans scaled up for 21% more airflow Dual ball fan bearings last up to twice as long as conventional designs Military-grade capacitors rated for 20K hours at 105C make the GPU power rail more durable Metal exoskeleton adds structural rigidity and vents to increase heat reliability Auto-Extreme precision automated manufacturing for higher reliability GPU Tweak III software provides intuitive performance tweaking, thermal controls, and system monitoring",
+        inStock: 2,
+        
+        performance: [
+            {
+                type: "Bus Standard",
+                value: "PCI Express 4.0",
+            },
+            {
+                type: "Accessories",
+                value: "1 x Collection Card​ 1 x Speedsetup Manual​ 1 x Adapter Cable​ (1 to 2) 1 x TUF Graphics Card Holder​ 1 x TUF Velcro Hook & Loop 1 x Thank you Card 1 x TUF Gaming Certificate",
+            },
+            {
+                type: "Video Memory",
+                value: "12GB GDDR6X",
+            },
+            {
+                type: "POWER CONNECTORS",
+                value: "1 x 16-pin",
+            },
+            {
+                type: "Recommended PSU Wattage",
+                value: "750W",
+            },
+            {
+                type: "Dimensions",
+                value: "305 x 138 x 65 mm",
+            },
+            {
+                type: "Graphic Engine",
+                value: "NVIDIA® GeForce RTX™ 4070 Ti",
+            },
+        ],
+        mainImg: "https://www.hitech.mn/_next/image?url=https%3A%2F%2Fhitech-bc-main.s3.ap-southeast-1.amazonaws.com%2F33c91493-2e62-4cf9-a3dd-bcb5fabb2dcc.jpg&w=1920&q=75",
+        additionalImg: "https://www.hitech.mn/_next/image?url=https%3A%2F%2Fhitech-bc-main.s3.ap-southeast-1.amazonaws.com%2Fd878bb92-605b-4631-99d5-6da3b0cec665.jpg&w=1920&q=75",
+    },
+]

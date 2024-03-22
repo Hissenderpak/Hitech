@@ -19,9 +19,9 @@ export default function Header() {
           <button onClick={() => setDropDown(!dropDown)} className="h-full w-[48px] px-4 mr-[12px]">
             {
               dropDown ? (
-                <img src="https://www.hitech.mn/assets/icons/ic_menu_closed.svg" className="w-[16px]"/>
+                <img src="https://www.hitech.mn/assets/icons/ic_menu_closed.svg" className="w-[16px] hidden md:flex"/>
               ) : (
-                <img src="https://www.hitech.mn/assets/icons/ic_close.svg"/>
+                <img src="https://www.hitech.mn/assets/icons/ic_close.svg" className="w-[16px] hidden md:flex"/>
               )
             }
           </button>

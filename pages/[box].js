@@ -311,6 +311,371 @@ export default function Box() {
                         <p class="text-3xl font-bold leading-10">Адил төстэй бүтээгдэхүүнүүд</p>
                     </div>
                 </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="rounded-lg hover:shadow transition-all flex flex-col flex-1 relative">
+  <div className="relative w-full rounded-lg">
+    <a href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568">
+      <img
+        alt="productImage"
+        src="https://www.hitech.mn/_next/image?url=https%3A%2F%2Fhitech-bc-main.s3.ap-southeast-1.amazonaws.com%2F29a1bf52-27e4-4a7b-b287-ecfd06b93bf7_thumbs_medium.jpg&w=3840&q=75"
+        data-nimg="fill"
+      />
+    </a>
+    <div className="absolute inset-0 rounded-lg opacity-0 hover:opacity-100 transition-colors flex flex-col">
+      <a className="flex w-full flex-1" href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568"></a>
+      <div className="flex w-full">
+        <a className="flex flex-1" href="#"></a>
+        <button className="rounded-full flex place-items-center justify-center baseText px-4 bg-white text-black-500 h-8 py-4 leading-3 hover:underline shadow-header transition-all">
+          ХЯЛБАР ҮЗЭЛТ
+        </button>
+        <a className="flex flex-1" href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568"></a>
+      </div>
+      <a className="flex flex-1" href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568"></a>
+    </div>
+  </div>
+  <div className="p-3 flex flex-col flex-1">
+    <div className="flex flex-1 flex-col">
+      <div className="flex w-full place-items-center justify-between mb-2">
+        <div className="flex">
+          <div className="hidden xl:flex flex-row justify-center place-items-center">
+            <img
+              alt="buttonIcon"
+              src="/assets/icons/ic_star_outline.svg"
+              width={24}
+              height={24}
+              decoding="async"
+              data-nimg="1"
+              className="object-contain"
+              loading="lazy"
+              style={{ color: 'transparent' }}
+            />
+            <p className="bigText ml-1">5.0</p>
+          </div>
+          <div className="flex xl:hidden flex-row justify-center place-items-center">
+            <img
+              alt="buttonIcon"
+              src="	https://www.hitech.mn/assets/icons/ic_star_outline.svg"
+              width={24}
+              height={24}
+              decoding="async"
+              data-nimg="1"
+              className="object-contain"
+              loading="lazy"
+              style={{ color: 'transparent' }}
+            />
+            <p className="bigText ml-1">5.0</p>
+          </div>
+        </div>
+        <div className="font-sans rounded-lg flex place-items-center justify-center py-1 px-2 text-sm leading-4 bg-opacityOrange-30">
+          Шинэ
+        </div>
+      </div>
+      <div className="flex flex-1 flex-col place-items-start">
+        <a className="bigText text-black-500 leading-6 mb-1" href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568">
+          Dell S2722QC 27-inch 4K USB-C Monitor - UHD (3840 x 2160) Display, 60Hz Refresh Rate
+        </a>
+        <div className="mb-1 w-full flex justify-between place-items-center">
+          <p className="lgHeading font-bold leading-7">1'350'000₮</p>
+          <p className="text-sm font-sans text-opacityGray-64 underline">Үлдэгдэл: 12</p>
+        </div>
+        <div className="font-sans rounded-lg flex place-items-center justify-center py-1 px-2 text-sm leading-4 italic rounded-l-none bg-opacityOrange-30">
+          Хүргэлт Үнэгүй
+        </div>
+      </div>
+    </div>
+    <div className="flex mt-3 w-full place-items-center justify-between">
+      <button type="button" className="h-8 rounded-full flex place-items-center justify-center baseText text-opacityGray-64">
+        <img
+          alt="buttonIcon"
+          src="https://www.hitech.mn/assets/icons/ic_checkbox.svg"
+          width={16}
+          height={16}
+          decoding="async"
+          data-nimg="1"
+          className="object-contain mr-1 rounded-full bg-white-500"
+          loading="lazy"
+          style={{ color: 'transparent' }}
+        />
+        Харьцуулах
+      </button>
+      <button className="rounded-full flex place-items-center justify-center px-3 bg-orange-500 h-8">
+        <img
+          alt="buttonIcon"
+          src="	https://www.hitech.mn/assets/icons/ic_bag_white.svg"
+          width={16}
+          height={16}
+          decoding="async"
+          data-nimg="1"
+          className="object-contain"
+          loading="lazy"
+          style={{ color: 'transparent' }}
+        />
+        <p className="baseText text-white ml-2 flex lg:hidden xl:flex">Сагслах</p>
+      </button>
+    </div>
+    <div className="absolute pointer-events-none rounded-lg inset-x-0 top-0 h-11 flex place-items-start justify-between">
+      <div className="p-3 flex pointer-events-auto"></div>
+      <button className="h-11 w-11 flex place-items-center justify-center pointer-events-auto">
+        <img
+          alt="buttonIcon"
+          src="	https://www.hitech.mn/assets/icons/ic_heart.svg"
+          width={24}
+          height={24}
+          decoding="async"
+          data-nimg="1"
+          className="object-contain hover:scale-125 transition-transform"
+          loading="lazy"
+          style={{ color: 'transparent' }}
+        />
+      </button>
+    </div>
+  </div>
+</div>
+<div className="rounded-lg hover:shadow transition-all flex flex-col flex-1 relative">
+  <div className="relative w-full rounded-lg">
+    <a href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568">
+      <img
+        alt="productImage"
+        src="https://www.hitech.mn/_next/image?url=https%3A%2F%2Fhitech-bc-main.s3.ap-southeast-1.amazonaws.com%2F29a1bf52-27e4-4a7b-b287-ecfd06b93bf7_thumbs_medium.jpg&w=3840&q=75"
+        data-nimg="fill"
+      />
+    </a>
+    <div className="absolute inset-0 rounded-lg opacity-0 hover:opacity-100 transition-colors flex flex-col">
+      <a className="flex w-full flex-1" href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568"></a>
+      <div className="flex w-full">
+        <a className="flex flex-1" href="#"></a>
+        <button className="rounded-full flex place-items-center justify-center baseText px-4 bg-white text-black-500 h-8 py-4 leading-3 hover:underline shadow-header transition-all">
+          ХЯЛБАР ҮЗЭЛТ
+        </button>
+        <a className="flex flex-1" href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568"></a>
+      </div>
+      <a className="flex flex-1" href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568"></a>
+    </div>
+  </div>
+  <div className="p-3 flex flex-col flex-1">
+    <div className="flex flex-1 flex-col">
+      <div className="flex w-full place-items-center justify-between mb-2">
+        <div className="flex">
+          <div className="hidden xl:flex flex-row justify-center place-items-center">
+            <img
+              alt="buttonIcon"
+              src="/assets/icons/ic_star_outline.svg"
+              width={24}
+              height={24}
+              decoding="async"
+              data-nimg="1"
+              className="object-contain"
+              loading="lazy"
+              style={{ color: 'transparent' }}
+            />
+            <p className="bigText ml-1">5.0</p>
+          </div>
+          <div className="flex xl:hidden flex-row justify-center place-items-center">
+            <img
+              alt="buttonIcon"
+              src="	https://www.hitech.mn/assets/icons/ic_star_outline.svg"
+              width={24}
+              height={24}
+              decoding="async"
+              data-nimg="1"
+              className="object-contain"
+              loading="lazy"
+              style={{ color: 'transparent' }}
+            />
+            <p className="bigText ml-1">5.0</p>
+          </div>
+        </div>
+        <div className="font-sans rounded-lg flex place-items-center justify-center py-1 px-2 text-sm leading-4 bg-opacityOrange-30">
+          Шинэ
+        </div>
+      </div>
+      <div className="flex flex-1 flex-col place-items-start">
+        <a className="bigText text-black-500 leading-6 mb-1" href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568">
+          Dell S2722QC 27-inch 4K USB-C Monitor - UHD (3840 x 2160) Display, 60Hz Refresh Rate
+        </a>
+        <div className="mb-1 w-full flex justify-between place-items-center">
+          <p className="lgHeading font-bold leading-7">1'350'000₮</p>
+          <p className="text-sm font-sans text-opacityGray-64 underline">Үлдэгдэл: 12</p>
+        </div>
+        <div className="font-sans rounded-lg flex place-items-center justify-center py-1 px-2 text-sm leading-4 italic rounded-l-none bg-opacityOrange-30">
+          Хүргэлт Үнэгүй
+        </div>
+      </div>
+    </div>
+    <div className="flex mt-3 w-full place-items-center justify-between">
+      <button type="button" className="h-8 rounded-full flex place-items-center justify-center baseText text-opacityGray-64">
+        <img
+          alt="buttonIcon"
+          src="https://www.hitech.mn/assets/icons/ic_checkbox.svg"
+          width={16}
+          height={16}
+          decoding="async"
+          data-nimg="1"
+          className="object-contain mr-1 rounded-full bg-white-500"
+          loading="lazy"
+          style={{ color: 'transparent' }}
+        />
+        Харьцуулах
+      </button>
+      <button className="rounded-full flex place-items-center justify-center px-3 bg-orange-500 h-8">
+        <img
+          alt="buttonIcon"
+          src="	https://www.hitech.mn/assets/icons/ic_bag_white.svg"
+          width={16}
+          height={16}
+          decoding="async"
+          data-nimg="1"
+          className="object-contain"
+          loading="lazy"
+          style={{ color: 'transparent' }}
+        />
+        <p className="baseText text-white ml-2 flex lg:hidden xl:flex">Сагслах</p>
+      </button>
+    </div>
+    <div className="absolute pointer-events-none rounded-lg inset-x-0 top-0 h-11 flex place-items-start justify-between">
+      <div className="p-3 flex pointer-events-auto"></div>
+      <button className="h-11 w-11 flex place-items-center justify-center pointer-events-auto">
+        <img
+          alt="buttonIcon"
+          src="	https://www.hitech.mn/assets/icons/ic_heart.svg"
+          width={24}
+          height={24}
+          decoding="async"
+          data-nimg="1"
+          className="object-contain hover:scale-125 transition-transform"
+          loading="lazy"
+          style={{ color: 'transparent' }}
+        />
+      </button>
+    </div>
+  </div>
+</div>
+                    
+
+                <div className="rounded-lg hover:shadow transition-all flex flex-col flex-1 relative">
+  <div className="relative w-full rounded-lg">
+    <a href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568">
+      <img
+        alt="productImage"
+        src="https://www.hitech.mn/_next/image?url=https%3A%2F%2Fhitech-bc-main.s3.ap-southeast-1.amazonaws.com%2F29a1bf52-27e4-4a7b-b287-ecfd06b93bf7_thumbs_medium.jpg&w=3840&q=75"
+        data-nimg="fill"
+      />
+    </a>
+    <div className="absolute inset-0 rounded-lg opacity-0 hover:opacity-100 transition-colors flex flex-col">
+      <a className="flex w-full flex-1" href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568"></a>
+      <div className="flex w-full">
+        <a className="flex flex-1" href="#"></a>
+        <button className="rounded-full flex place-items-center justify-center baseText px-4 bg-white text-black-500 h-8 py-4 leading-3 hover:underline shadow-header transition-all">
+          ХЯЛБАР ҮЗЭЛТ
+        </button>
+        <a className="flex flex-1" href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568"></a>
+      </div>
+      <a className="flex flex-1" href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568"></a>
+    </div>
+  </div>
+  <div className="p-3 flex flex-col flex-1">
+    <div className="flex flex-1 flex-col">
+      <div className="flex w-full place-items-center justify-between mb-2">
+        <div className="flex">
+          <div className="hidden xl:flex flex-row justify-center place-items-center">
+            <img
+              alt="buttonIcon"
+              src="/assets/icons/ic_star_outline.svg"
+              width={24}
+              height={24}
+              decoding="async"
+              data-nimg="1"
+              className="object-contain"
+              loading="lazy"
+              style={{ color: 'transparent' }}
+            />
+            <p className="bigText ml-1">5.0</p>
+          </div>
+          <div className="flex xl:hidden flex-row justify-center place-items-center">
+            <img
+              alt="buttonIcon"
+              src="	https://www.hitech.mn/assets/icons/ic_star_outline.svg"
+              width={24}
+              height={24}
+              decoding="async"
+              data-nimg="1"
+              className="object-contain"
+              loading="lazy"
+              style={{ color: 'transparent' }}
+            />
+            <p className="bigText ml-1">5.0</p>
+          </div>
+        </div>
+        <div className="font-sans rounded-lg flex place-items-center justify-center py-1 px-2 text-sm leading-4 bg-opacityOrange-30">
+          Шинэ
+        </div>
+      </div>
+      <div className="flex flex-1 flex-col place-items-start">
+        <a className="bigText text-black-500 leading-6 mb-1" href="/product/c3b9185d-dc40-47b3-9a7c-a7977d6b4568">
+          Dell S2722QC 27-inch 4K USB-C Monitor - UHD (3840 x 2160) Display, 60Hz Refresh Rate
+        </a>
+        <div className="mb-1 w-full flex justify-between place-items-center">
+          <p className="lgHeading font-bold leading-7">1'350'000₮</p>
+          <p className="text-sm font-sans text-opacityGray-64 underline">Үлдэгдэл: 12</p>
+        </div>
+        <div className="font-sans rounded-lg flex place-items-center justify-center py-1 px-2 text-sm leading-4 italic rounded-l-none bg-opacityOrange-30">
+          Хүргэлт Үнэгүй
+        </div>
+      </div>
+    </div>
+    <div className="flex mt-3 w-full place-items-center justify-between">
+      <button type="button" className="h-8 rounded-full flex place-items-center justify-center baseText text-opacityGray-64">
+        <img
+          alt="buttonIcon"
+          src="https://www.hitech.mn/assets/icons/ic_checkbox.svg"
+          width={16}
+          height={16}
+          decoding="async"
+          data-nimg="1"
+          className="object-contain mr-1 rounded-full bg-white-500"
+          loading="lazy"
+          style={{ color: 'transparent' }}
+        />
+        Харьцуулах
+      </button>
+      <button className="rounded-full flex place-items-center justify-center px-3 bg-orange-500 h-8">
+        <img
+          alt="buttonIcon"
+          src="	https://www.hitech.mn/assets/icons/ic_bag_white.svg"
+          width={16}
+          height={16}
+          decoding="async"
+          data-nimg="1"
+          className="object-contain"
+          loading="lazy"
+          style={{ color: 'transparent' }}
+        />
+        <p className="baseText text-white ml-2 flex lg:hidden xl:flex">Сагслах</p>
+      </button>
+    </div>
+    <div className="absolute pointer-events-none rounded-lg inset-x-0 top-0 h-11 flex place-items-start justify-between">
+      <div className="p-3 flex pointer-events-auto"></div>
+      <button className="h-11 w-11 flex place-items-center justify-center pointer-events-auto">
+        <img
+          alt="buttonIcon"
+          src="	https://www.hitech.mn/assets/icons/ic_heart.svg"
+          width={24}
+          height={24}
+          decoding="async"
+          data-nimg="1"
+          className="object-contain hover:scale-125 transition-transform"
+          loading="lazy"
+          style={{ color: 'transparent' }}
+        />
+      </button>
+    </div>
+  </div>
+</div>
+
+
+
+                </div>
+                
             </div>
             <div className="w-full rounded-lg bg-blue-950 px-16 py-6 flex flex-col-reverse md:flex-row cursor-pointer">
                 <div className="flex flex-col flex-1 justify-center place-items-start mr-3 md:mr-0 mt-0 md:mt-3">

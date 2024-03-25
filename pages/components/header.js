@@ -12,11 +12,11 @@ export default function Header() {
 
   return (
     <div className="w-full fixed shadow flex flex-col relative items-center">
-      <div className="w-full h-20 px-4 flex items-center justify-between  md:px-12 xl:px-28 ">
+      <div className=" w-full h-20 px-4 flex items-center justify-between md:px-12 xl:px-28 ">
 
         <div  className="w-fit flex items-center flex-row-reverse">
-          <img onClick={() => router.push('./index.js')} src="https://www.hitech.mn/assets/icons/ic_logo.svg" alt="" className="w-[108px] cursor-pointer" />
-          <button onClick={() => setDropDown(!dropDown)} className="h-full w-[48px] px-4 mr-[12px]">
+          <img onClick={() => router.push('./index')} src="https://www.hitech.mn/assets/icons/ic_logo.svg" alt="" className="w-[108px] cursor-pointer" />
+          <button onClick={() => setDropDown(!dropDown)} className="h-full w-[48px] px-4 mr-[12px] hidden md:flex">
             {
               dropDown ? (
                 <img src="https://www.hitech.mn/assets/icons/ic_menu_closed.svg" className="w-[16px] hidden md:flex"/>
@@ -139,11 +139,11 @@ export default function Header() {
       )}
 
       <div className="hidden md:flex justify-center h-[32px]">
-        <div className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">Бэлэн Компьютер</div>
-        <div className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">PC Build</div>
-        <div className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">LVL Up!</div>
-        <div onClick={() => router.push('/pcCare.js')} className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">PC Care+</div>
-        <div className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">Холбоо барих</div>
+        <div onClick={() => router.push('./pcCare')} className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">Бэлэн Компьютер</div>
+        <div onClick={() => router.push('./pcCare')} className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">PC Build</div>
+        <div onClick={() => router.push('./pcCare')} className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">LVL Up!</div>
+        <div onClick={() => router.push('./pcCare')} className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">PC Care+</div>
+        <div onClick={() => router.push('./pcCare')} className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">Холбоо барих</div>
       </div>
     </div>
   );

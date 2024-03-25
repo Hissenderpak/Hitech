@@ -2,16 +2,19 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Header from "./components/header";
 import Router, { useRouter } from "next/router";
+import FooterMenu from "./components/footerMenu";
+
 const inter = Inter({ subsets: ["latin"] });
 export default function pcCare() {
   const  router = useRouter ();
   return (
     <main>
      <Header/>
-    <div className="w-full py-6">
+     <FooterMenu/>
+    <div className="w-full py-6 h-full ">
       <div className="w-full lg:pl-20 lg:pr-20 md:pl-12 md:pr-12 pr-4 pl-4 pb-6">
         <div className="h-6 flex flex-row mb-5">
-          <div className="h-6 flex flex-row justify-center place-items-center px-3">
+          <div className="h-6 flex flex-row justify-center items-center px-3 ">
             <a className="text-xs opacity-40 font-sans">Нүүр хуудас</a>
             <img className="ml-3 opacity-60"width="8" height="8" alt="arrow"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Chevron_right.svg/1024px-Chevron_right.svg.png"></img>
           </div>
@@ -24,7 +27,7 @@ export default function pcCare() {
            <p className="font-black mb-12 lg:mb-24 xl:text-[128px] lg:text-[88px] md:text-[68px] text-[28px]">“PC Care+”-г сонгосон танд баярлалаа. </p>
            <p className="text-md font-medium text-justify">Бидний санал болгож буй үйлчилгээ нь PC, Laptop-д тань шаардлагатай тусламжийг чанарын өндөр түвшинд шуурхай гүйцэтгэж өгнө. 🖥️✨ "PC Care+"-д дараах тусламжууд багтсан. Үүнд:</p>
           </div>
-          <div className="relative">
+          <div className="">
            <img className="object-contain lg:w-[1024px] md:w-[384px] w-[384px] h-[587px]" alt="caringImage" sizes="100vw" srcset="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccare.png&w=1920&q=75"></img>
           </div>
         </div>
@@ -50,8 +53,8 @@ export default function pcCare() {
           </div>
           <div className="pt-4 pb-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
+              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 ">
+                <div className=" h-[140px] lg:h-[280px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -82,8 +85,8 @@ export default function pcCare() {
                   <p className="text-3xl font-bold text-black-500 leading-7">50'000₮</p>
                 </div>
               </div>
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
+              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 ">
+                <div className=" h-[140px] lg:h-[280px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -114,8 +117,8 @@ export default function pcCare() {
                   <p className="text-3xl font-bold text-black-500 leading-7">70'000₮</p>
                 </div>
               </div>
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
+              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 ">
+                <div className=" h-[140px] lg:h-[280px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -146,8 +149,8 @@ export default function pcCare() {
                   <p className="text-3xl font-bold text-black-500 leading-7">100'000₮</p>
                 </div>
               </div>
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
+              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 ">
+                <div className=" h-[140px] lg:h-[280px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -189,8 +192,8 @@ export default function pcCare() {
           </div>
           <div className="pt-4 pb-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] md:h-[280px] w-full rounded-lg">
+              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 ">
+                <div className=" h-[140px] md:h-[280px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="object-contain absolute h-[100%] w-[100%] h-auto" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -221,8 +224,8 @@ export default function pcCare() {
                   <p className="text-3xl font-bold text-black-500 leading-7">20'000₮</p>
                 </div>
               </div>
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] md:h-[280px] w-full rounded-lg">
+              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 ">
+                <div className=" h-[140px] md:h-[280px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="object-contain absolute h-[100%] w-[100%] h-auto l:0 r:0 b:0 t:0" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -253,8 +256,8 @@ export default function pcCare() {
                   <p className="text-3xl font-bold text-black-500 leading-7">70'000₮</p>
                 </div>
               </div>
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
+              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 ">
+                <div className=" h-[140px] lg:h-[280px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="object-contain absolute h-[100%] w-[100%] h-auto" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -285,8 +288,8 @@ export default function pcCare() {
                   <p className="text-3xl font-bold text-black-500 leading-7">100'000₮</p>
                 </div>
               </div>
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
+              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 ">
+                <div className=" h-[140px] lg:h-[280px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="object-contain absolute h-[100%] w-[100%] h-auto" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">

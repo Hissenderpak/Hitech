@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function FooterMenu() {
   return (
-    <div className="px-10 h-16 z-10 md:hidden flex justify-center fixed bottom-0 border-t w-full">
+    <div className="px-10 h-16 z-100 md:hidden flex justify-center fixed bottom-0 border-t w-full bg-white">
       <div className="max-w-lg w-full  grid grid-cols-4">
       <div className="px-5 inline-flex flex-col items-center max-w-[128px] text-orange-600 justify-center cursor-point py-1">
           <svg width="25" height="25" class="mb-1 text-opacityGray-40 text-orange-600 flex items-center justify-center " viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.5 20.5003C21.5 20.7655 21.3946 21.0198 21.2071 21.2074C21.0196 21.3949 20.7652 21.5003 20.5 21.5003H4.5C4.23478 21.5003 3.98043 21.3949 3.79289 21.2074C3.60536 21.0198 3.5 20.7655 3.5 20.5003V9.99027C3.49989 9.83788 3.53462 9.68749 3.60152 9.55057C3.66841 9.41365 3.76572 9.29384 3.886 9.20027L11.886 2.97827C12.0615 2.84172 12.2776 2.76758 12.5 2.76758C12.7224 2.76758 12.9385 2.84172 13.114 2.97827L21.114 9.20027C21.2343 9.29384 21.3316 9.41365 21.3985 9.55057C21.4654 9.68749 21.5001 9.83788 21.5 9.99027V20.5003ZM19.5 19.5003V10.4783L12.5 5.03427L5.5 10.4783V19.5003H19.5Z" fill="currentColor"></path></svg>

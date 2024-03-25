@@ -11,7 +11,7 @@ export default function Header() {
   const [dropDown, setDropDown] = useState(true);
 
   return (
-    <div className="w-full fixed shadow flex flex-col relative items-center">
+    <div className="w-full fixed shadow flex flex-col fixed relative items-center">
       <div className=" w-full h-20 px-4 flex items-center justify-between md:px-12 xl:px-28 ">
 
         <div  className="w-fit flex items-center flex-row-reverse">

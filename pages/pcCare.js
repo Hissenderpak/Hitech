@@ -51,7 +51,7 @@ export default function pcCare() {
           <div className="pt-4 pb-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
+                <div className="relative h-[140px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -83,7 +83,7 @@ export default function pcCare() {
                 </div>
               </div>
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
+                <div className="relative h-[140px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -115,7 +115,7 @@ export default function pcCare() {
                 </div>
               </div>
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
+                <div className="relative h-[140px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -147,7 +147,7 @@ export default function pcCare() {
                 </div>
               </div>
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
+                <div className="relative h-[140px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -190,8 +190,8 @@ export default function pcCare() {
           <div className="pt-4 pb-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] md:h-[280px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="object-contain absolute h-[100%] w-[100%] h-auto" loading="lazy"></img>
+                <div className="relative h-[140px] w-full rounded-lg">
+                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
                   <div className="flex flex-1 flex-col place-items-start">
@@ -218,12 +218,12 @@ export default function pcCare() {
                   </div>
                 </div>
                 <div className="flex flex-1 flex-col place-items-end pb-3">
-                  <p className="text-3xl font-bold text-black-500 leading-7">20'000₮</p>
+                  <p className="text-3xl font-bold text-black-500 leading-7">50'000₮</p>
                 </div>
               </div>
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] md:h-[280px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="object-contain absolute h-[100%] w-[100%] h-auto l:0 r:0 b:0 t:0" loading="lazy"></img>
+                <div className="relative h-[140px] w-full rounded-lg">
+                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
                   <div className="flex flex-1 flex-col place-items-start">
@@ -254,8 +254,8 @@ export default function pcCare() {
                 </div>
               </div>
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="object-contain absolute h-[100%] w-[100%] h-auto" loading="lazy"></img>
+                <div className="relative h-[140px] w-full rounded-lg">
+                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
                   <div className="flex flex-1 flex-col place-items-start">
@@ -286,8 +286,8 @@ export default function pcCare() {
                 </div>
               </div>
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="object-contain absolute h-[100%] w-[100%] h-auto" loading="lazy"></img>
+                <div className="relative h-[140px] w-full rounded-lg">
+                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
                   <div className="flex flex-1 flex-col place-items-start">
@@ -319,58 +319,6 @@ export default function pcCare() {
               </div>
             </div>
           </div>
-          <div className="h- pt-12 pb-12 pl-4 pr-4 bg-white-400">
-      <section className="grid grid-cols-2 lg:grid-cols-7 pb-6 w-full gap-8">
-        <div className="col-span-2">
-          <div>
-            <p className="text-s font-bold mb-4">ХОЛБООСУУД</p>
-            <div className="flex flex-col w-full">
-              <a className="text-sm font-sans text-black-500 mb-3 last:mb-0" href="https://www.youtube.com/watch?v=OLf8sTEfAlM">Хэрхэн PC Format хийх вэ?</a>
-              <a className="text-sm font-sans text-black-500 mb-3 last:mb-0" href="https://www.youtube.com/watch?v=OLf8sTEfAlM">Gaming Mouse-уудын Tier List!!!</a>
-              <a className="text-sm font-sans text-black-500 mb-3 last:mb-0" href="https://www.youtube.com/watch?v=OLf8sTEfAlM">EVGA RTX 3080 Build</a>
-              <a className="text-sm font-sans text-black-500 mb-3 last:mb-0" href="https://www.youtube.com/watch?v=OLf8sTEfAlM">Түгээмэл Асуулт Хариулт</a>
-              <a className="text-sm font-sans text-black-500 mb-3 last:mb-0" href="https://www.youtube.com/watch?v=OLf8sTEfAlM">Үйлчилгээний Нөхцөл</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-span-3">
-          <p className="baseText text-black-500 font-bold mb-4">ХОЛБОО БАРИХ</p>
-          <div className="flex w-full mb-3">
-            <p className="text-sm font-sans flex flex-shrink-0 text-black-500">Салбар дэлгүүрийн дугаар:</p>
-            <p className="text-sm font-sans flex flex-shrink-0 text-black-500">7000-1311 (Хүннү 2222), 7000-0090 (Computer Mall)</p>
-          </div>
-          <div className="flex w-full mb-3">
-            <p className="text-sm font-sans flex flex-shrink-0 text-black-500">Имэйл хаяг:</p>
-            <p className="text-sm font-sans flex flex-shrink-0 text-black-500">info@hitech.mn</p>
-          </div>
-          <div className="flex w-full">
-            <p className="text-sm font-sans flex flex-shrink-0 text-black-500">Бидэнтэй хамтарч ажиллах:</p>
-            <div className="ml-3">
-              <p className="text-sm font-sans text-opacityGray-64">8092-0044</p>
-              <p className="text-sm font-sans text-opacityGray-64">info@hitech.mn</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-span-2">
-          <p className="baseText text-black-500 font-bold mb-4">СОШИАЛ СУВГУУД</p>
-          <a target="_blank" className="flex justify-start place-items-center mb-3 last:mb-0" href="https://www.youtube.com/@HiTechMN">
-            <div className="h-6 w-6 flex justify-center place-items-center">
-             <img alt="logo" src="https://www.hitech.mn/assets/icons/ic_youtube.svg" width="24" height="24" decoding="async" data-nimg="1" class="object-contain cursor-pointer" loading="lazy" ></img>
-            </div>
-            <p className="ml-3 text-sm font-sans text-black-500">Hitech</p>
-          </a>
-          <a target="_blank" className="flex justify-start place-items-center mb-3 last:mb-0" onClick={() => router.push("Facebook.com")}>
-          <div className="h-6 w-6 flex justify-center place-items-center">
-             <img alt="logo" src="https://www.hitech.mn/assets/icons/ic_facebook.svg" width="24" height="24" decoding="async" data-nimg="1" class="object-contain cursor-pointer" loading="lazy" ></img>
-            </div>
-            <p className="ml-3 text-sm font-sans text-black-500">Hitech Computer Store</p>
-          </a>
-        </div>
-       </section>
-      </div>
-      <div className="w-11 h-11 bg-orange-600 rounded-lg fixed bottom-10 right-2 flex justify-center place-items-center">
-       <img alt="arrowToTop" src="https://www.hitech.mn/assets/icons/ic_chevron_right.svg" width="10" height="10" decoding="async" data-nimg="1" class=" bg-orange-600 object-contain -rotate-90" loading="lazy"></img>
-      </div>
         </section>
         <section className="w-full border-t border-gray-400 pt-4 flex flex-col-reverse sm:flex-row">
           <div className="flex flex-col flex-1 mt-6 sm:mt-0">

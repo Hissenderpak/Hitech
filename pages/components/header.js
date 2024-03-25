@@ -15,7 +15,7 @@ export default function Header() {
       <div className="w-full h-20 px-4 flex items-center justify-between  md:px-12 xl:px-28 ">
 
         <div  className="w-fit flex items-center flex-row-reverse">
-          <img onClick={() => router.push('./index.js')} src="https://www.hitech.mn/assets/icons/ic_logo.svg" alt="" className="w-[108px]" />
+          <img onClick={() => router.push('./index.js')} src="https://www.hitech.mn/assets/icons/ic_logo.svg" alt="" className="w-[108px] cursor-pointer" />
           <button onClick={() => setDropDown(!dropDown)} className="h-full w-[48px] px-4 mr-[12px]">
             {
               dropDown ? (
@@ -34,9 +34,9 @@ export default function Header() {
         <div className="hidden h-full mx-8 xl:mr-14 md:flex flex-1 items-center relative ">
           <input placeholder="Хайлт жишээ нь : RTX 2080" className="h-8 w-full rounded-full bg-gray-100 flex text-black-500 focus:bg-gray-200 pl-4 pr-14 text-sm outline-none"/>
           <div className="absolute rounded-full right-0 flex items-center">
-            <div className="w-auto h-fit rounded-full hidden xl:flex px-3 py-[3px] text-xs items-center bg-gray-50 mr-3 underline text-gray-500">KEYBOARD</div>
-            <div className="w-auto h-fit rounded-full hidden xl:flex px-3 py-[3px] text-xs items-center bg-gray-50 mr-3 underline text-gray-500">MOUSE</div>
-            <div className="w-auto h-fit rounded-full hidden xl:flex px-3 py-[3px] text-xs items-center bg-gray-50 mr-3 underline text-gray-500">APPLE</div>
+            <div className="w-auto h-fit rounded-full hidden xl:flex px-3 py-[3px] text-xs items-center bg-gray-50 mr-3 underline text-gray-500 cursor-pointer">KEYBOARD</div>
+            <div className="w-auto h-fit rounded-full hidden xl:flex px-3 py-[3px] text-xs items-center bg-gray-50 mr-3 underline text-gray-500 cursor-pointer">MOUSE</div>
+            <div className="w-auto h-fit rounded-full hidden xl:flex px-3 py-[3px] text-xs items-center bg-gray-50 mr-3 underline text-gray-500 cursor-pointer">APPLE</div>
             <button className="rounded-full bg-orange-600 h-8 flex justify-center items-center px-4">
               <img className="h-4 w-4" src="https://www.hitech.mn/assets/icons/ic_search_white.svg"/>
             </button>
@@ -44,11 +44,11 @@ export default function Header() {
         </div>
 
         <div className="hidden h-full pl-6 md:flex items-center w-[262px]">
-          <div className="h-full flex items-center px-4 mr-6">
+          <div className="h-full flex items-center px-4 cursor-pointer mr-6">
             <img src="https://www.hitech.mn/assets/icons/ic_cart.svg" className="w-4 mr-2" />
             <div className="text-sm">Сагс (0)</div>
           </div>
-          <div className="h-full flex items-center px-4">
+          <div className="h-full flex items-center px-4 cursor-pointer">
             <img src="https://www.hitech.mn/assets/icons/ic_user.svg" className="w-4 mr-2" />
             <div className="text-sm">Нэвтрэх</div>
           </div>
@@ -139,11 +139,11 @@ export default function Header() {
       )}
 
       <div className="hidden md:flex justify-center h-[32px]">
-        <div className="h-full w-fit px-4 text-sm flex items-center text-black-500">Бэлэн Компьютер</div>
-        <div className="h-full w-fit px-4 text-sm flex items-center text-black-500">PC Build</div>
-        <div className="h-full w-fit px-4 text-sm flex items-center text-black-500">LVL Up!</div>
-        <div onClick={() => router.push('/pcCare.js')} className="h-full w-fit px-4 text-sm flex items-center text-black-500">PC Care+</div>
-        <div className="h-full w-fit px-4 text-sm flex items-center text-black-500">Холбоо барих</div>
+        <div className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">Бэлэн Компьютер</div>
+        <div className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">PC Build</div>
+        <div className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">LVL Up!</div>
+        <div onClick={() => router.push('/pcCare.js')} className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">PC Care+</div>
+        <div className="h-full w-fit px-4 text-sm flex items-center text-black-500 cursor-pointer">Холбоо барих</div>
       </div>
     </div>
   );

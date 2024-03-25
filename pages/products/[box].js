@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import Header from "../components/header";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -7,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Box() {
   return (
     <main className="w-full py-6">
+      <Header/>
         <div className="w-full px-4 " >
             <div className="h-6 flex flex-row mb-5" >
                 <div className="h-6 flex flex-row justify-center place-items-center px-3">

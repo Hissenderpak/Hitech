@@ -7,8 +7,9 @@ export default function pcCare() {
   const  router = useRouter ();
   return (
     <main>
+     <Header/>
     <div className="w-full py-6">
-      <div className="w-full h-screen pb-6 px-4">
+      <div className="w-full lg:pl-20 lg:pr-20 md:pl-12 md:pr-12 pr-4 pl-4 pb-6">
         <div className="h-6 flex flex-row mb-5">
           <div className="h-6 flex flex-row justify-center place-items-center px-3">
             <a className="text-xs opacity-40 font-sans">Нүүр хуудас</a>
@@ -20,11 +21,11 @@ export default function pcCare() {
         </div>
         <div className="w-full flex flex-col-reverse lg:flex-row justify-between mb-8">
           <div className="flex flex-col">
-           <p className="text-[28px] font-bold mb-12 lg:mb-24">“PC Care+”-г сонгосон танд баярлалаа. </p>
-           <p className="text-md font-semibold text-justify">Бидний санал болгож буй үйлчилгээ нь PC, Laptop-д тань шаардлагатай тусламжийг чанарын өндөр түвшинд шуурхай гүйцэтгэж өгнө. 🖥️✨ "PC Care+"-д дараах тусламжууд багтсан. Үүнд:</p>
+           <p className="font-black mb-12 lg:mb-24 xl:text-[128px] lg:text-[88px] md:text-[68px] text-[28px]">“PC Care+”-г сонгосон танд баярлалаа. </p>
+           <p className="text-md font-medium text-justify">Бидний санал болгож буй үйлчилгээ нь PC, Laptop-д тань шаардлагатай тусламжийг чанарын өндөр түвшинд шуурхай гүйцэтгэж өгнө. 🖥️✨ "PC Care+"-д дараах тусламжууд багтсан. Үүнд:</p>
           </div>
-          <div className="relative h-[587px]">
-           <img className="object-contain w-[100%] h-[100%]" alt="caringImage" sizes="100vw" srcset="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccare.png&w=1920&q=75"></img>
+          <div className="relative">
+           <img className="object-contain lg:w-[1024px] md:w-[384px] w-[384px] h-[587px]" alt="caringImage" sizes="100vw" srcset="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccare.png&w=1920&q=75"></img>
           </div>
         </div>
         <div className="flex flex-col w-full mb-12">
@@ -50,7 +51,7 @@ export default function pcCare() {
           <div className="pt-4 pb-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
+                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -82,7 +83,7 @@ export default function pcCare() {
                 </div>
               </div>
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
+                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -114,7 +115,7 @@ export default function pcCare() {
                 </div>
               </div>
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
+                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -146,7 +147,7 @@ export default function pcCare() {
                 </div>
               </div>
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
+                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
                  <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
@@ -189,8 +190,8 @@ export default function pcCare() {
           <div className="pt-4 pb-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
+                <div className="relative h-[140px] md:h-[280px] w-full rounded-lg">
+                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="object-contain absolute h-[100%] w-[100%] h-auto" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
                   <div className="flex flex-1 flex-col place-items-start">
@@ -217,151 +218,12 @@ export default function pcCare() {
                   </div>
                 </div>
                 <div className="flex flex-1 flex-col place-items-end pb-3">
-                  <p className="text-3xl font-bold text-black-500 leading-7">50'000₮</p>
+                  <p className="text-3xl font-bold text-black-500 leading-7">20'000₮</p>
                 </div>
               </div>
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
-                </div>
-                <div className="p-3 flex flex-col flex-1">
-                  <div className="flex flex-1 flex-col place-items-start">
-                    <p className="text-lg font-bold text-black-500 leading-7 mb-3">Бүрэн цэвэрлэгээ 1</p>
-                    <p className="text-[16px] leading-6">1-3 Сэнс бүхий дуудлагын компьютер угсралтын үйлчилгээ</p>
-                  </div>
-                  <div className="flex flex-1 flex-col py-3">
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Бүрэн цэвэрлэгээ & Rebuild</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Оношилгоо, зөвлөгөө</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">CPU thermal солих /Thermalright TF8/</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Компьютерийн кабель эмхлэх /Cable Management/</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-1 flex-col place-items-end pb-3">
-                  <p className="text-3xl font-bold text-black-500 leading-7">70'000₮</p>
-                </div>
-              </div>
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
-                </div>
-                <div className="p-3 flex flex-col flex-1">
-                  <div className="flex flex-1 flex-col place-items-start">
-                    <p className="text-lg font-bold text-black-500 leading-7 mb-3">Бүрэн цэвэрлэгээ 1</p>
-                    <p className="text-[16px] leading-6">1-3 Сэнс бүхий дуудлагын компьютер угсралтын үйлчилгээ</p>
-                  </div>
-                  <div className="flex flex-1 flex-col py-3">
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Бүрэн цэвэрлэгээ & Rebuild</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Оношилгоо, зөвлөгөө</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">CPU thermal солих /Thermalright TF8/</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Компьютерийн кабель эмхлэх /Cable Management/</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-1 flex-col place-items-end pb-3">
-                  <p className="text-3xl font-bold text-black-500 leading-7">100'000₮</p>
-                </div>
-              </div>
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
-                </div>
-                <div className="p-3 flex flex-col flex-1">
-                  <div className="flex flex-1 flex-col place-items-start">
-                    <p className="text-lg font-bold text-black-500 leading-7 mb-3">Бүрэн цэвэрлэгээ 1</p>
-                    <p className="text-[16px] leading-6">1-3 Сэнс бүхий дуудлагын компьютер угсралтын үйлчилгээ</p>
-                  </div>
-                  <div className="flex flex-1 flex-col py-3">
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Бүрэн цэвэрлэгээ & Rebuild</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Оношилгоо, зөвлөгөө</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">CPU thermal солих /Thermalright TF8/</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Компьютерийн кабель эмхлэх /Cable Management/</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-1 flex-col place-items-end pb-3">
-                  <p className="text-3xl font-bold text-black-500 leading-7">150'000₮</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="w-full flex flex-col pt-16">
-          <div className="flex w-full justify-between place-items-center mb-6">
-            <div className="flex justify-center place-items-end">
-              <p className="text-[28px] font-bold leading-10 undefined">Үйлчилгээний төрлүүд</p>
-            </div>
-          </div>
-          <div className="pt-4 pb-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
-                </div>
-                <div className="p-3 flex flex-col flex-1">
-                  <div className="flex flex-1 flex-col place-items-start">
-                    <p className="text-lg font-bold text-black-500 leading-7 mb-3">Бүрэн цэвэрлэгээ 1</p>
-                    <p className="text-[16px] leading-6">1-3 Сэнс бүхий дуудлагын компьютер угсралтын үйлчилгээ</p>
-                  </div>
-                  <div className="flex flex-1 flex-col py-3">
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Бүрэн цэвэрлэгээ & Rebuild</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Оношилгоо, зөвлөгөө</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">CPU thermal солих /Thermalright TF8/</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Компьютерийн кабель эмхлэх /Cable Management/</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-1 flex-col place-items-end pb-3">
-                  <p className="text-3xl font-bold text-black-500 leading-7">50'000₮</p>
-                </div>
-              </div>
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
+                <div className="relative h-[140px] md:h-[280px] w-full rounded-lg">
+                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="object-contain absolute h-[100%] w-[100%] h-auto l:0 r:0 b:0 t:0" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
                   <div className="flex flex-1 flex-col place-items-start">
@@ -392,8 +254,8 @@ export default function pcCare() {
                 </div>
               </div>
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
+                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
+                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="object-contain absolute h-[100%] w-[100%] h-auto" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
                   <div className="flex flex-1 flex-col place-items-start">
@@ -424,147 +286,8 @@ export default function pcCare() {
                 </div>
               </div>
               <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
-                </div>
-                <div className="p-3 flex flex-col flex-1">
-                  <div className="flex flex-1 flex-col place-items-start">
-                    <p className="text-lg font-bold text-black-500 leading-7 mb-3">Бүрэн цэвэрлэгээ 1</p>
-                    <p className="text-[16px] leading-6">1-3 Сэнс бүхий дуудлагын компьютер угсралтын үйлчилгээ</p>
-                  </div>
-                  <div className="flex flex-1 flex-col py-3">
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Бүрэн цэвэрлэгээ & Rebuild</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Оношилгоо, зөвлөгөө</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">CPU thermal солих /Thermalright TF8/</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Компьютерийн кабель эмхлэх /Cable Management/</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-1 flex-col place-items-end pb-3">
-                  <p className="text-3xl font-bold text-black-500 leading-7">150'000₮</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="w-full flex flex-col pt-16">
-        <div className="flex w-full justify-between place-items-center mb-6">
-            <div className="flex justify-center place-items-end">
-              <p className="text-[28px] font-bold leading-10 undefined">Үйлчилгээний төрлүүд</p>
-            </div>
-          </div>
-          <div className="pt-4 pb-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
-                </div>
-                <div className="p-3 flex flex-col flex-1">
-                  <div className="flex flex-1 flex-col place-items-start">
-                    <p className="text-lg font-bold text-black-500 leading-7 mb-3">Бүрэн цэвэрлэгээ 1</p>
-                    <p className="text-[16px] leading-6">1-3 Сэнс бүхий дуудлагын компьютер угсралтын үйлчилгээ</p>
-                  </div>
-                  <div className="flex flex-1 flex-col py-3">
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Бүрэн цэвэрлэгээ & Rebuild</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Оношилгоо, зөвлөгөө</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">CPU thermal солих /Thermalright TF8/</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Компьютерийн кабель эмхлэх /Cable Management/</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-1 flex-col place-items-end pb-3">
-                  <p className="text-3xl font-bold text-black-500 leading-7">50'000₮</p>
-                </div>
-              </div>
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
-                </div>
-                <div className="p-3 flex flex-col flex-1">
-                  <div className="flex flex-1 flex-col place-items-start">
-                    <p className="text-lg font-bold text-black-500 leading-7 mb-3">Бүрэн цэвэрлэгээ 1</p>
-                    <p className="text-[16px] leading-6">1-3 Сэнс бүхий дуудлагын компьютер угсралтын үйлчилгээ</p>
-                  </div>
-                  <div className="flex flex-1 flex-col py-3">
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Бүрэн цэвэрлэгээ & Rebuild</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Оношилгоо, зөвлөгөө</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">CPU thermal солих /Thermalright TF8/</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Компьютерийн кабель эмхлэх /Cable Management/</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-1 flex-col place-items-end pb-3">
-                  <p className="text-3xl font-bold text-black-500 leading-7">70'000₮</p>
-                </div>
-              </div>
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
-                </div>
-                <div className="p-3 flex flex-col flex-1">
-                  <div className="flex flex-1 flex-col place-items-start">
-                    <p className="text-lg font-bold text-black-500 leading-7 mb-3">Бүрэн цэвэрлэгээ 1</p>
-                    <p className="text-[16px] leading-6">1-3 Сэнс бүхий дуудлагын компьютер угсралтын үйлчилгээ</p>
-                  </div>
-                  <div className="flex flex-1 flex-col py-3">
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Бүрэн цэвэрлэгээ & Rebuild</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Оношилгоо, зөвлөгөө</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">CPU thermal солих /Thermalright TF8/</p>
-                    </div>
-                    <div className="flex w-full justify-start place-items-center">
-                     <img alt="buttonIcon" src="https://www.hitech.mn/assets/icons/ic_check_white.svg" width="16" height="16" decoding="async" data-nimg="1" className="object-contain mr-3 rounded-full bg-orange-500" loading="lazy"></img>
-                     <p className="text-[14px] text-slate-400 leading-6">Компьютерийн кабель эмхлэх /Cable Management/</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-1 flex-col place-items-end pb-3">
-                  <p className="text-3xl font-bold text-black-500 leading-7">100'000₮</p>
-                </div>
-              </div>
-              <div className="border-2 hover:bg-shadow-500 border-slate-200 rounded-md  transition-all flex flex-col flex-1 relative">
-                <div className="relative h-[140px] w-full rounded-lg">
-                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="h-[140px] object-contain ml-[25%] rounded-lg bg-cover" loading="lazy"></img>
+                <div className="relative h-[140px] lg:h-[280px] w-full rounded-lg">
+                 <img alt="image" sizes="100vw" src="https://www.hitech.mn/_next/image?url=%2Fassets%2Fimages%2Fimg_pccareitem.png&w=2048&q=75" decoding="async"  className="object-contain absolute h-[100%] w-[100%] h-auto" loading="lazy"></img>
                 </div>
                 <div className="p-3 flex flex-col flex-1">
                   <div className="flex flex-1 flex-col place-items-start">

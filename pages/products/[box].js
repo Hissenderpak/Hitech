@@ -7,9 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Box() {
   return (
-    <main className="w-full py-6">
+    <main className="w-full">
       <Header/>
-        <div className="w-full px-4 " >
+        <div className="w-full pt-8 px-4 " >
             <div className="h-6 flex flex-row mb-5" >
                 <div className="h-6 flex flex-row justify-center place-items-center px-3">
                     <a className="text-sm text-slate-400 font-sans" href="#">Нүүр хуудас</a>
